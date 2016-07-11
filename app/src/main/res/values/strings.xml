@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Simulator</string>
+    <string name="inicio">Arranque</string>
+    <string name="optCarga">Carga automatica</string>
+    <string name="optAgregar">Agregar</string>
+    <string name="optBuscar">Buscar</string>
+    <string name="opcBDV">Borrar datos vendedor</string>
+    <string name="opc2">Opción 2</string>
+    <string name="title_activity_datos_vendedor">Datos de vendedor</string>
+
+    <string name="btn_casing">Casing</string>
+    <string name="btn_tubing">Tubing</string>
+    <string name="btn_packer">Packer</string>
+    <string name="btn_ff_up">Ff Up</string>
+    <string name="btn_ff_down">Ff Down</string>
+    <string name="btn_ff_rotation">Ff Rotation</string>
+    <string name="btn_fluid">Fluid</string>
+    <string name="btn_temperature">Temperature</string>
+    <string name="btn_pressure">Pressure</string>
+    <string name="btn_internal_friction">Internal Friction</string>
+    <string name="btn_load">Load</string>
+
+    <!-- Menu input -->
+    <string name="opt_volver">Volver</string>
+    <string name="opt_nuevo">Nuevo</string>
+    <string name="opt_guardar">Guardar</string>
+    <string name="opt_borrar">Borrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Casting fragment</string>
+</resources>

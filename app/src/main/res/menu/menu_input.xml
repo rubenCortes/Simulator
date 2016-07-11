@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item
+        android:id="@+id/mnu_volver"
+        android:title="@string/opt_volver"
+        android:icon="@drawable/ic_boton_buscar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnu_nuevo"
+        android:title="@string/opt_nuevo"
+        android:icon="@drawable/ic_boton_agregar_lote"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnu_guardar"
+        android:title="@string/opt_guardar"
+        android:icon="@drawable/ic_boton_agregar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnu_borrar"
+        android:title="@string/opt_borrar"
+        android:orderInCategory="100">
+    </item>
+</menu>

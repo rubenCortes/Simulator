@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item
+        android:id="@+id/mnuBuscar"
+        android:title="@string/optBuscar"
+        android:icon="@drawable/ic_boton_buscar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnuCarga"
+        android:title="@string/optCarga"
+        android:icon="@drawable/ic_boton_agregar_lote"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnu_nuevo_proyecto"
+        android:title="@string/optAgregar"
+        android:icon="@drawable/ic_boton_agregar"
+        android:orderInCategory="90"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/mnu_borrar_proyecto"
+        android:title="@string/opcBDV"
+        android:orderInCategory="100">
+    </item>
+    <item
+        android:id="@+id/mnu_abrir_proyecto"
+        android:title="@string/opc2"
+        android:orderInCategory="100">
+    </item>
+</menu>
