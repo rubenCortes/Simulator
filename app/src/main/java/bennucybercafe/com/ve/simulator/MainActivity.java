@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity
         transaccion.replace(R.id.cuerpo_fragmento, fragmentoPrincipal);
 
         transaccion.commit();
-
     }
 
     @Override

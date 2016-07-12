@@ -145,7 +145,7 @@ public class Principal extends Fragment implements View.OnClickListener {
         }
 
     }
-    
+
     @Override
     public void onDetach() {
         super.onDetach();
