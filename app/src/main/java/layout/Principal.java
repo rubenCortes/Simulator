@@ -39,8 +39,6 @@ public class Principal extends Fragment implements View.OnClickListener {
         void onFragmentInteraction(View vista);
     }
 
-
-
     public Principal() {
         // Required empty public constructor
     }
@@ -147,15 +145,11 @@ public class Principal extends Fragment implements View.OnClickListener {
         }
 
     }
-
-
-
+    
     @Override
     public void onDetach() {
         super.onDetach();
         mListener = null;
     }
-
-
 
 }
